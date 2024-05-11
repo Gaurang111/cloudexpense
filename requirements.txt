@@ -1,6 +1,6 @@
 streamlit
 os
-pandas as pd
+pandas
 json
 matplotlib
 plotly
