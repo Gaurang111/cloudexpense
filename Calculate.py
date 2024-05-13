@@ -110,6 +110,7 @@ def take_tax_user(tax_data):
     st.subheader("Tax Information:")
     NoT = st.slider('Number of Taxes', 0, 50, len(tax_data))
 
+    tax_editable_data = {}
 
     # Display tax information
     if tax_data:
