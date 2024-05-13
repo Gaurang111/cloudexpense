@@ -71,7 +71,7 @@ def download_latest_json_from_s3(bucket_name, folder_name, aws_access_key_id, aw
         return None
 
 def main1():
-    st.title("Upload to S3")
+    st.title("CloudExpense")
 
     # AWS credentials and bucket information
     aws_access_key_id = st.secrets['AWS_ACCESS_KEY_ID']
