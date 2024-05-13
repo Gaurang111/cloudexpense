@@ -75,8 +75,8 @@ def main1():
 
     # AWS credentials and bucket information
     aws_access_key_id = st.secrets['AWS_ACCESS_KEY_ID']
-    aws_secret_access_key = st.secrets.['AWS_SECRET_ACCESS_KEY']
-    bucket_name =  st.secrets.['BUCKET_NAME']
+    aws_secret_access_key = st.secrets['AWS_SECRET_ACCESS_KEY']
+    bucket_name =  st.secrets['BUCKET_NAME']
 
     # Allow user to upload a file
     uploaded_file = st.file_uploader("Choose a file")
