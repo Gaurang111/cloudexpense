@@ -1,7 +1,5 @@
 streamlit
-os
 pandas
-json
+boto3
 matplotlib
 plotly
-boto3
